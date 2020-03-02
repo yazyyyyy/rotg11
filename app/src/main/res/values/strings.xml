@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ROTG</string>
+    <string name="rotg">ROTG</string>
+    <string name="recycle_on_the_go">Recycle on the GO!</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="rewards">Rewards</string>
+    <string name="locate_bin">Locate Bin</string>
+    <string name="my_account">My Account</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="home">Home</string>
+    <string name="qr_activity">QR Activity</string>
+    <string name="reward_activity">Reward Activity</string>
+    <string name="location_activity">Location activity</string>
+</resources>

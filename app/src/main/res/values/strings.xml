@@ -12,4 +12,7 @@
     <string name="qr_activity">QR Activity</string>
     <string name="reward_activity">Reward Activity</string>
     <string name="location_activity">Location activity</string>
+    <string name="logo">Logo</string>
+    <string name="bottles_deposited">Bottles Deposited</string>
+    <string name="number">Number</string>
 </resources>

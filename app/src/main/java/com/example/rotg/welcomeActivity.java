@@ -73,7 +73,7 @@ public class welcomeActivity extends AppCompatActivity {
 
     }
     public void openqr(){
-        Intent qrintent=new Intent(this,qr_activity.class);
+        Intent qrintent=new Intent(getApplicationContext(),qr_activity.class);
         startActivity(qrintent);
     }
 

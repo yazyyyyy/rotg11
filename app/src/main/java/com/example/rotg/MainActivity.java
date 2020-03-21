@@ -18,11 +18,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run()
             {
-                Intent welcomeIntent = new Intent(MainActivity.this, welcomeActivity.class);
+                Intent welcomeIntent = new Intent(MainActivity.this, Login_activity.class);
                 startActivity(welcomeIntent);
                 finish();
             }
-        },SPLASH_TIME_OUT);
-
+        }, SPLASH_TIME_OUT);
     }
 }

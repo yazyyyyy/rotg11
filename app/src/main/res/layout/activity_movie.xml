@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:animateLayoutChanges="true"
+    android:orientation="vertical"
     android:background="@drawable/grad_bg"
     android:weightSum="10"
-    tools:context=".reward_activity">
+    tools:context=".movie">
     <RelativeLayout
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
         <TextView
             android:id="@+id/textGrid"
-            android:text="Water Bottles"
+            android:text="Latest Movie Coupons"
             android:textSize="34sp"
             android:textColor="@android:color/white"
             android:layout_centerInParent="true"
@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 tools:ignore="UseCompoundDrawables">
                 <ImageView
-                    android:src="@drawable/reward1"
+                    android:src="@drawable/movie1n"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -91,9 +91,9 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="138dp"
+                    android:layout_height="179dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bottle22"
+                    android:src="@drawable/movie2n"
                     tools:ignore="ContentDescription" />
                 <TextView
 
@@ -132,7 +132,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="143dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/copper1"
+                    android:src="@drawable/movie3n"
                     tools:ignore="ContentDescription" />
                 <TextView
                     android:text="@string/_600_points"
@@ -169,7 +169,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="142dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bottlee4"
+                    android:src="@drawable/movie4n"
                     tools:ignore="ContentDescription" />
                 <TextView
                     android:text="@string/_800_points"
@@ -183,5 +183,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
+
+
 
 </LinearLayout>

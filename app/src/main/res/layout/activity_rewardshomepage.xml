@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -5,17 +6,16 @@
     android:layout_height="match_parent"
     android:animateLayoutChanges="true"
     android:background="@drawable/grad_bg"
-    tools:context=".MainActivity">
-
+    tools:context=".rewardshomepage">
     <Button
-        android:id="@+id/button"
+        android:id="@+id/rewards1"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="100dp"
-        android:text="@string/scan_qr"
+        android:text="@string/water_bottles"
         android:textColor="#ffffff"
-        android:drawableTop="@drawable/ic_qr_code"
+        android:drawableTop="@drawable/reward111"
         android:background="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,13 +23,13 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/rewards2"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="50dp"
-        android:text="@string/rewards"
-        android:drawableTop="@drawable/ic_giftbox"
+        android:text="@string/patym_cashbacks"
+        android:drawableTop="@drawable/rewardd222"
         android:textColor="#ffffff"
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,56 +38,56 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/rewards3"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:background="@color/colorPrimary"
-        android:text="@string/locate_bin"
+        android:text="@string/smart_phones"
         android:textColor="#ffffff"
-        android:drawableTop="@drawable/ic_loc_pin"
+        android:drawableTop="@drawable/rewardss3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/rewards1" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/rewards4"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:background="@color/colorPrimary"
-        android:text="@string/my_account"
-        android:drawableTop="@drawable/ic_account"
+        android:text="@string/movie_coupons"
+        android:drawableTop="@drawable/reward44p"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/rewards2" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/rewards5"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
         android:background="@color/colorPrimary"
-        android:text="@string/feedback"
-        android:drawableTop="@drawable/ic_love"
+        android:text="@string/smart_watches"
+        android:drawableTop="@drawable/reward555p"
         android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/rewards3" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/rewards6"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:background="@color/colorPrimary"
-        android:text="@string/about"
-        android:drawableTop="@drawable/ic_about_us"
+        android:text="@string/earphones"
+        android:drawableTop="@drawable/reward66p"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/rewards4" />
 
     <TextView
         android:id="@+id/textView3"
@@ -95,7 +95,8 @@
         android:layout_height="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginTop="25dp"
-        android:text="@string/home"
+        android:gravity="center"
+        android:text="@string/reward_page"
         android:textSize="30sp"
         android:textColor="#ffffff"
         app:layout_constraintStart_toStartOf="parent"

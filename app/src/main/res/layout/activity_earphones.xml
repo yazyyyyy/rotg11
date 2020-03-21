@@ -8,14 +8,14 @@
     android:animateLayoutChanges="true"
     android:background="@drawable/grad_bg"
     android:weightSum="10"
-    tools:context=".reward_activity">
+    tools:context=".earphones">
     <RelativeLayout
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
         <TextView
             android:id="@+id/textGrid"
-            android:text="Water Bottles"
+            android:text="Earphones"
             android:textSize="34sp"
             android:textColor="@android:color/white"
             android:layout_centerInParent="true"
@@ -52,21 +52,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:ignore="UseCompoundDrawables">
+
                 <ImageView
-                    android:src="@drawable/reward1"
-                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="141dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ear1n"
                     tools:ignore="ContentDescription" />
                 <TextView
-                    android:text="@string/_400_points"
+                    android:text="JBL C50HI
+
+2500 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <!-- col2 -->
@@ -93,18 +97,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="138dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bottle22"
+                    android:src="@drawable/ear2n"
                     tools:ignore="ContentDescription" />
                 <TextView
 
-                    android:text="@string/_500_points"
+                    android:text="SkullCandy Jib
+
+3000 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <!-- Row2 -->
@@ -132,17 +139,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="143dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/copper1"
+                    android:src="@drawable/ear3n"
                     tools:ignore="ContentDescription" />
                 <TextView
-                    android:text="@string/_600_points"
+                    android:text="MI earphones
+
+3500 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <!-- col2 -->
@@ -169,17 +179,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="142dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bottlee4"
+                    android:src="@drawable/ear4n"
                     tools:ignore="ContentDescription" />
+
                 <TextView
-                    android:text="@string/_800_points"
-                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="72dp"
                     android:layout_gravity="center"
+                    android:text="SennheiserCX7BT
+                    5000 points"
+                    android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>

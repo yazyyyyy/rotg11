@@ -15,4 +15,34 @@
     <string name="logo">Logo</string>
     <string name="bottles_deposited">Bottles Deposited</string>
     <string name="number">Number</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="login_now">Login Now</string>
+    <string name="username">Username</string>
+    <string name="reward5">Reward5</string>
+    <string name="reward6">Reward6</string>
+    <string name="water_bottles">Water Bottles</string>
+    <string name="patym_cashbacks">PATYM Cashbacks</string>
+    <string name="smart_phones">Smart Phones</string>
+    <string name="movie_coupons">Movie Coupons</string>
+    <string name="smart_watches">Smart Watches</string>
+    <string name="earphones">Earphones</string>
+    <string name="reward_page">Reward Page</string>
+    <string name="grid_layout">GRID LAYOUT</string>
+    <string name="reward1">Reward1</string>
+    <string name="_400_points">400 points</string>
+    <string name="_500_points">500 points</string>
+    <string name="_600_points">600 points</string>
+    <string name="_800_points">800 points</string>
+    <string name="points">100 points</string>
+    <string name="_2000_points">2000 points</string>
+    <string name="redmi_note8_11000_points">Redmi Note8 11000 points</string>
+    <string name="moto_x4_12000_points">Moto x4 12000 points</string>
+    <string name="iphone_7_25000_points">iPhone 7 25000 points</string>
+    <string name="iphone_7_32gb_25000_points">iPhone 7(32GB) 25000 points</string>
+    <string name="redmi_note8pro_15000_points">Redmi Note8PRO 15000 points</string>
+    <string name="phone">Smart Phones</string>
+    <string name="account_image">account image</string>
+    <string name="account_name">Account Name</string>
+    <string name="reward_points_0">Reward Points = 0</string>
 </resources>

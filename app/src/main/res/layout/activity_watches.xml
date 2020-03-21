@@ -8,14 +8,14 @@
     android:animateLayoutChanges="true"
     android:background="@drawable/grad_bg"
     android:weightSum="10"
-    tools:context=".reward_activity">
+    tools:context=".watches">
     <RelativeLayout
         android:layout_weight="2"
         android:layout_width="match_parent"
         android:layout_height="0dp">
         <TextView
             android:id="@+id/textGrid"
-            android:text="Water Bottles"
+            android:text="Smart Watches"
             android:textSize="34sp"
             android:textColor="@android:color/white"
             android:layout_centerInParent="true"
@@ -52,21 +52,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:ignore="UseCompoundDrawables">
+
                 <ImageView
-                    android:src="@drawable/reward1"
-                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="152dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/watch1n"
                     tools:ignore="ContentDescription" />
                 <TextView
-                    android:text="@string/_400_points"
+                    android:text="Gusto Helix
+
+2000 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <!-- col2 -->
@@ -91,20 +95,24 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="138dp"
+                    android:layout_height="154dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bottle22"
+                    android:src="@drawable/watch3n"
                     tools:ignore="ContentDescription" />
                 <TextView
 
-                    android:text="@string/_500_points"
+                    android:text="A1 watch
+
+
+2500 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <!-- Row2 -->
@@ -132,17 +140,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="143dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/copper1"
+                    android:src="@drawable/watch4n"
                     tools:ignore="ContentDescription" />
                 <TextView
-                    android:text="@string/_600_points"
+                    android:text="Huami watch
+
+10000 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
         <!-- col2 -->
@@ -169,19 +180,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="142dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/bottlee4"
+                    android:src="@drawable/watch2n"
                     tools:ignore="ContentDescription" />
                 <TextView
-                    android:text="@string/_800_points"
+                    android:text="Apple iWatch
+
+50000 points"
                     android:textAlignment="center"
                     android:layout_gravity="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
+
 
 </LinearLayout>

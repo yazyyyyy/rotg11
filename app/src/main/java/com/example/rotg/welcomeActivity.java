@@ -78,7 +78,7 @@ public class welcomeActivity extends AppCompatActivity {
     }
 
     public void openreward(){
-        Intent rewardintent=new Intent(this,reward_activity.class);
+        Intent rewardintent=new Intent(this,rewardshomepage.class);
         startActivity(rewardintent);
     }
 

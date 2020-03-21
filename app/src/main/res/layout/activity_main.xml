@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/grad_bg"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".welcomeActivity">
@@ -36,7 +37,6 @@
         android:text="@string/recycle_on_the_go"
         android:textColor="#ffffff"
         android:textSize="20sp" />
-
 
 
 </LinearLayout>

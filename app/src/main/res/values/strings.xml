@@ -45,4 +45,10 @@
     <string name="account_image">account image</string>
     <string name="account_name">Account Name</string>
     <string name="reward_points_0">Reward Points = 0</string>
+    <string name="title_activity_maps">Locate Bin</string>
+    <string name="hello_user">HELLO USER!</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="type_your_feedback">Type your feedback...</string>
+    <string name="submit_feedback">Submit Feedback</string>
 </resources>

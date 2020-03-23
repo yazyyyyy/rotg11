@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/logo"
         android:gravity="center"
-        app:srcCompat="@drawable/ic_rotglogo"
+        app:srcCompat="@drawable/ic_rotg_new"
         tools:ignore="VectorDrawableCompat" />
 
     <TextView

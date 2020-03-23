@@ -83,7 +83,7 @@ public class welcomeActivity extends AppCompatActivity {
     }
 
     public void openloc(){
-        Intent locintent=new Intent(this,loc_activity.class);
+        Intent locintent=new Intent(this,MapsActivity.class);
         startActivity(locintent);
     }
 
